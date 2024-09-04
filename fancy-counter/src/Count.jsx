@@ -1,5 +1,3 @@
-export default function Count({number, size}){
-
-    return  <p>{number}</p>
-
+export default function Count({ count }) {
+  return <p className="count">{count}</p>;
 }
